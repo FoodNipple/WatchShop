@@ -1,0 +1,84 @@
+.LoginImage {
+  width: 100%;
+  height: 62.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.WhiteBox {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  width: 30%;
+  height: 56%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.whitebox p {
+  color: rgb(228, 226, 226);
+}
+
+.WhiteBox h3,
+p,
+input,
+button,
+h4 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: "Spectral";
+}
+
+.portal {
+  display: flex;
+  flex-direction: row;
+}
+
+.portal p {
+  color: blue;
+  font-weight: bold;
+}
+
+.LoginPageLogo {
+  width: 15%;
+  margin-left: 2rem;
+}
+
+.email {
+  width: 70%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password {
+  width: 70%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.continue {
+  width: 20%;
+  margin-left: 2rem;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.conditions {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.conditions p {
+  display: flex;
+  justify-content: center;
+  padding: 1vh 1vh 1vh 1vh;
+}

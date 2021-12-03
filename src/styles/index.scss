@@ -1,0 +1,17 @@
+// RESET
+@import "reset";
+
+//FONTS
+@import "fonts";
+
+//BASE
+@import "./base";
+
+//UTILS
+@import "utils";
+
+//PAGES
+@import "./pages/main_page";
+@import "./pages/login_page";
+@import "./pages/register_page";
+@import "./pages/shop_page";
